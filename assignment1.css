@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap');
+.topbar{
+    padding: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:100%;
+}
+.topbar a>img:hover{
+    src:"accnt.png"
+}
+.search{
+    display: flex;
+    border-radius: 100px;
+    border-style: solid;
+    background-color: rgb(248, 248, 248);
+    border-color: rgb(248, 248, 248);
+    border-width: 0.5rem;
+    padding: none;
+    font-size: 21px;
+    width:230px;
+}
+.search >input{
+    font-size: 14px;
+    background-color: rgb(248, 248, 248);
+    border-style: none;
+    border-width: 0px;
+    margin: none;
+    padding: none;
+    outline: none;
+}
+.search>img{
+    height:18px;
+    margin-right: 10px;
+}
+.searchandlogo{
+    display:flex;
+    align-items: center;
+}
+.searchandlogo>a>img{
+    width:70px;
+
+}
+.search>img{
+    padding-top: 4px;
+    width: 13px;
+   
+}
+.icons{
+    align-items: center;
+    justify-content: right;
+    display:flex;
+    margin-right: 12px;
+}
+.icons>a>img{
+    padding:9px;
+}
+section button{
+    font-size: 12px;
+}
+.link{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.recommend a{
+    display: flex;
+    align-items: center;
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+    padding: 5px;
+}
+.recommend p{
+    padding: 5px;
+}
+.bottom{
+    display:grid;
+    grid-template-columns: 0.9fr 1.1fr;
+}
+div.recommend{
+    margin-top: none;
+    padding: 50px;
+    font-family: Poppins;
+    font-size: 13px;
+    justify-content: right;
+    text-align: center;
+}
+.recommend h1{
+    margin-left:120px;
+    margin-right: 120px;
+    margin-top: 20px;
+    font-size: 40px;
+    letter-spacing: 0px;
+}
+.big{
+    width:100%;
+    display: flex;
+    align-self: center;
+    text-align: center;
+}
+.rightside a{
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+}
+.rightside{
+    margin-top: 55px;
+    margin-right: 200px;
+    font-family: "Poppins";
+}
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 1px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    padding: none;
+    margin: none;
+}
+.user a{
+    font-size: 13px;
+    padding: 4px;
+}
+.user p{
+    font-size: 13px;
+}
+.user img{
+    border-radius: 100px;
+    width: 20px;
+}
+.star img{
+    width: 20px;
+    height: 20px;
+}
+.starry a>img{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 175px;
+    border-radius: 4px;
+}
+.imageandtext{
+    padding: none;
+    display: grid;
+    grid-template-columns: 1.25fr 0.75fr;
+    margin-top: none;
+}
+.text a>div>h2{
+    margin-top: 1px;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 1px;
+}
+.text a>div>p{
+    color: gray;
+    margin-top: 1px;
+    font-size: 14px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-bottom: none;
+}
+.star div{
+    font-size: 12px;
+    color: gray;
+}
+.fiveicons img{
+    width: 20px;
+}
+.fiveicons{
+    margin-top: 17px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.rightalign{
+    align-items: center;
+    justify-content: right;
+    margin-right: 55px;
+}
+.leftalign a>img{
+    font-size: 12px;
+}
+.leftalign a{
+    font-size: 12px;
+}
+.fiveicons div{
+    display: flex;
+    align-items: center;
+    
+}
+.fiveicons a{
+    margin-left: none;
+    font-size: 10px;
+}
+.claps img{
+    width: 25px;
+}
+.leftalign p{
+    margin-left: none;
+}
+.rightalign a{
+    margin-left: 25px;
+}
+.claps>img{
+    margin-left: none;
+}
+.fiveicons a{
+    color: rgb(144, 144, 144);
+}
+a:hover{
+    color: black;
+}
+.user p{
+    color: gray;
+}
+.timedate{
+    display: flex;
+}
+.timedate p{
+    padding: 5px;
+}
+#down{
+    margin-bottom: 40px;
+    justify-content: right;
+    position: fixed;
+    bottom: 0;
+    align-items: end;
+    display: flex;
+    margin-left: 50px;
+
+}
+#down a{
+    font-size:10px ;
+    color: rgb(132, 132, 132);
+}
+#down a:hover{
+    color: #000;
+}
+.comments{
+    margin-left: 25px;
+}
+#box{
+    position: sticky;
+    top: 60px;
+}
+.link a{
+    color: rgb(122, 122, 122);
+}
+.link a:hover{
+    color: #000;
+}
+.writing img:hover {
+    content:url("writeblack.png");
+ } 
+.bells img:hover {
+    content:url("bellblack.png");
+}
+.accnts img:hover {
+    content:url("accntblack.png");
+}  
+.claps img:hover{
+    content:url("clapblack.png");
+}
+.comments img:hover{
+    content:url("commentblack.png");
+}
+.bookmarks img:hover{
+    content:url("bookmarkblack.png");
+}
+.threedots img:hover{
+    content:url("3dotblack.png");
+}
+.icons a>img{
+    height:48px;
+    padding: 9px;
+}
+.rightside hr{
+    margin-top: 40px;
+    margin-bottom: 42px;
+}
+@media(max-width:1320px){
+    #down{
+        display: none;
+    }
+    .bottom{
+        display:grid;
+        grid-template-columns: none;
+        grid-template-rows: 0.1fr 1.1fr;
+    }
+    .rightside{
+        margin-left: 55px;
+        margin-right: 0px;
+        padding-right: none;
+    }
+    .starry{
+        margin-right: 0px;
+        padding-right: none;
+    }
+    .recommend h1{
+        font-size: 29px;
+        margin: none;
+        padding-right: none;
+    }
+    .unit{
+        justify-self: center;
+    }
+    .big{
+        margin:none;
+    }
+}
+@media(min-width:992px){
+    .recommend h1{
+        font-size: 40px;
+
+    }
+}
+@media(max-width:651px){
+    .starry a>img{
+        width:100px;
+    }
+}
+
+
+
+
+
+
+
+
+
